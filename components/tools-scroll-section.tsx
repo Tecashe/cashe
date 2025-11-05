@@ -99,24 +99,6 @@ export default function ToolsScrollSection() {
               </div>
             </div>
           </div>
-
-          {/* Progress indicator */}
-          <div className="mt-12">
-            <div className="text-muted-foreground text-sm mb-4">
-              {currentToolIndex + 1} of {tools.length}
-            </div>
-            <div className="w-48 h-1 bg-foreground/10 rounded-full overflow-hidden mx-auto">
-              <div
-                className="h-full bg-gradient-to-r from-cyan-400 to-blue-400 transition-all duration-300"
-                style={{ width: `${((currentToolIndex + 1) / tools.length) * 100}%` }}
-              />
-            </div>
-          </div>
-
-          {/* Instruction text */}
-          <div className="mt-8 text-foreground/50 text-sm">
-            <p>Scroll to discover the tools I work with</p>
-          </div>
         </div>
       </div>
 
