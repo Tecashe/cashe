@@ -25,7 +25,7 @@ const microSites: MicroSite[] = [
     title: "E-Commerce Platform",
     description: "Premium shopping experience with seamless checkout and inventory management",
     category: "web",
-    url: "https://yazzil.com",
+    url: "https://hookedbyannie.vercel.app",
     technologies: ["Next.js", "PostgreSQL", "Stripe"],
   },
   {
@@ -33,7 +33,7 @@ const microSites: MicroSite[] = [
     title: "Mobile Fitness Tracker",
     description: "Elegant health tracking app with social features and AI coaching",
     category: "mobile",
-    url: "https://yazzil.com",
+    url: "https://mailreach.vercel.app",
     technologies: ["React Native", "Firebase", "Node.js"],
   },
   {
@@ -41,7 +41,7 @@ const microSites: MicroSite[] = [
     title: "Project Management Suite",
     description: "Collaborative workspace for teams with real-time updates and integrations",
     category: "saas",
-    url: "https://yazzil.com",
+    url: "https://configcraft.vercel.app",
     technologies: ["Vue", "WebSockets", "MongoDB"],
   },
 ]
